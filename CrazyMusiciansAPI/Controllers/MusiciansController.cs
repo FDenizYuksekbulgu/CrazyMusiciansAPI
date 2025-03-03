@@ -10,7 +10,7 @@ namespace CrazyMusiciansAPI.Controllers
     [ApiController]
     public class MusiciansController : ControllerBase
     {
-        // Mock veri listesi (Geçici veritabanı) / Mock data representing musicians
+       
         private static List<Musician> musicians = new List<Musician>
         {
             new Musician { Id = 1, Name = "Ahmet Çalgı", Profession = "Famous Player", FunFeature = "Always plays wrong notes but very fun" },

@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace CrazyMusiciansAPI.Controllers
 {
-    [Route("api/musicians")]
+    [Route("api/musicians")] // API controller olduğunu belirtir.
     [ApiController]
     public class MusiciansController : ControllerBase
     {

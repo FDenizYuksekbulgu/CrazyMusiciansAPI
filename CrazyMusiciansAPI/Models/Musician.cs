@@ -1,8 +1,8 @@
 ﻿
 namespace CrazyMusiciansAPI.Models
 {
-    // Müzisyen modeli / Model for a musician
-    public class Musician
+    
+    public class Musician // Müzisyen modeli / Model for a musician
     {
         public int Id { get; set; }
         public string Name { get; set; }
